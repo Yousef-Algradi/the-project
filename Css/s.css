@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+
+    background-image: linear-gradient(to right, rgba(220, 67, 67, 0.715), rgba(39, 47, 205, 0.705))
+    , url(/Pictures/sunset\ picture.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+.navbar ul li{
+
+   
+    height: 100px;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+    margin: 10px;
+    
+}
+
+.navbar ul li a{
+    
+    margin-left: 130px;
+    color: rgb(208, 82, 82);
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(212, 174, 204, 0.425);
+}
+.navbar ul span li a{
+    color: rgb(165, 165, 233);
+}
+
+.content h1 {
+
+   margin: 30px;
+    color: rgb(210, 49, 49);
+    margin-left: 330px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+
+.content h1 span{
+    color: rgb(172, 172, 244);
+}
+
+.content .shoot{
+
+    float: left;
+    width: 50%;
+    border: 2px solid;
+    border-color: rgb(197, 67, 67);
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(176, 176, 235);
+    text-align: center;
+   
+}
+
+.hover :hover{
+    background-color: rgba(151, 150, 214, 0.58);
+}
+
+.content  span{
+    color: rgb(241, 145, 145);
+}
+
+
+
+
+/* media */
+
+/* XS */
+@media(max-width: 576px){
+
+}
+
+/* SM */
+@media(min-width: 576px){
+   
+}
+
+/* MD*/
+@media(min-width: 768px){
+
+}
+
+/* L */
+@media(min-width: 992px){
+
+}
+
+/* XL */
+@media(min-width: 1200px){
+   
+}
+
+/* XXL */
+@media(min-width: 1400px){
+
+} */
