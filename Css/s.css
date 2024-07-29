@@ -9,6 +9,15 @@ a{
     list-style: none;
 }
 
+/* frame work */
+.container{
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* frame work */
+/* header start */
+
 header{
 
     background-image: linear-gradient(to right, rgba(220, 67, 67, 0.715), rgba(39, 47, 205, 0.705))
@@ -18,6 +27,11 @@ header{
     height: 100vh;
     padding: 30px;
 
+}
+
+.navbar .menu{
+    font-size: 30px;
+    color: aqua;
 }
 
 .navbar ul li{
@@ -39,11 +53,14 @@ header{
 }
 
 .navbar ul li a:hover{
-    background-color: rgba(212, 174, 204, 0.425);
+    /* background-color: rgba(212, 174, 204, 0.425); */
+    border-bottom: 2px solid;
 }
 .navbar ul span li a{
     color: rgb(165, 165, 233);
 }
+
+
 
 .content h1 {
 
@@ -62,7 +79,8 @@ header{
 .content .shoot{
 
     float: left;
-    width: 50%;
+    width: 48%;
+    margin: 1%;
     border: 2px solid;
     border-color: rgb(197, 67, 67);
     font-size: 30px;
@@ -80,6 +98,25 @@ header{
     color: rgb(241, 145, 145);
 }
 
+@media(max-width: 576px){
+
+    .content .shoot{
+        margin: 0 auto 20 ;
+        float: none;
+    }
+    .content h1{
+        font-size: 30px;
+        margin-left: auto;
+    }
+    .navbar ul li a{
+        
+    }
+
+}
+
+
+/* header end */
+
 
 
 
@@ -87,6 +124,7 @@ header{
 
 /* XS */
 @media(max-width: 576px){
+    
 
 }
 
